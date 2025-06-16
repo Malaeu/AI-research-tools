@@ -41,6 +41,10 @@
   - [Dataset Download](#dataset-download)
   - [Feature Engineering](#feature-engineering)
   - [Hyperparameter Search](#hyperparameter-search)
+- [AI Coding Assistants](#ai-coding-assistants)
+  - [Autonomous Coding Agents](#autonomous-coding-agents)
+  - [AI-Powered Development Tools](#ai-powered-development-tools)
+  - [Medical AI Development](#medical-ai-development)
 - [Academic Writing](#academic-writing)
   - [LaTeX Templates](#latex-templates)
   - [LaTeX Editors](#latex-editors)
@@ -203,6 +207,62 @@ I previously used [Evernote](https://www.yinxiang.com/) but have stopped and am 
 * [BoTorch](https://github.com/pytorch/botorch): [To Try] PyTorch-based Bayesian optimization library.
 
 * [automl/Auto-PyTorch](https://github.com/automl/Auto-PyTorch): [To Try] PyTorch-based automatic architecture search and hyperparameter search.
+
+## AI Coding Assistants
+
+### Autonomous Coding Agents
+
+* [Claude Code](https://claude.ai/code): Anthropic's official CLI for autonomous coding with Claude. The most capable AI pair programmer for complex software engineering tasks.
+  
+  **Pro Tips & Tricks:**
+  - **Planning Mode**: Press `shift + tab` twice to enter planning mode for complex tasks
+  - **Project Instructions**: Use `/init` to create Claude.md for project-specific guidelines
+  - **Fresh Start**: Use `/clear` to begin new tasks with clean context
+  - **Memory**: Use `#` to add important information to memory for future sessions
+  - **Custom Commands**: Create slash commands like `/commit`, `/test`, `/deploy`
+  - **Git Workflow**: Work on feature branches, commit often with descriptive messages
+  
+  **Thinking Modes** (increasing depth):
+  - `think` - Basic reasoning
+  - `think hard` - Deeper analysis
+  - `think harder` - Complex problem solving
+  - `ultrathink` - Maximum reasoning depth for hardest problems
+  
+  **Essential Extensions:**
+  - [Peekaboo](https://peekaboo.dev/) - Vision superpowers for analyzing screenshots and diagrams
+  - [llm.codes](https://llm.codes/) - Generate clean, professional documentation from code
+  - [ccusage](https://github.com/claudeusercontent/ccusage) - Track Claude usage with max subscription
+
+* [Cursor](https://cursor.sh/): AI-first code editor built on VSCode. Features include multi-file editing, codebase understanding, and natural language to code.
+
+* [GitHub Copilot](https://github.com/features/copilot): AI pair programmer that suggests whole lines and functions. Integrates with VSCode, JetBrains IDEs, and Neovim.
+
+### AI-Powered Development Tools
+
+* [Codeium](https://codeium.com/): Free AI-powered code completion and chat. Supports 70+ languages and integrates with all major IDEs.
+
+* [Tabnine](https://www.tabnine.com/): AI assistant for faster coding. Offers both cloud and local models for privacy-sensitive environments.
+
+* [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/): AI coding companion optimized for AWS services. Free for individual developers.
+
+* [Replit AI](https://replit.com/ai): Collaborative AI features in Replit including code generation, debugging, and explanation.
+
+### Medical AI Development
+
+* **Clinical Decision Support Tools**
+  - [MIMIC-IV](https://physionet.org/content/mimiciv/): Critical care database for developing AI models
+  - [ClinicalBERT](https://github.com/kexinhuang12345/clinicalBERT): Pre-trained BERT for clinical notes
+  - [Med7](https://github.com/kormilitzin/med7): Clinical NLP for information extraction
+
+* **Medical Image Analysis**
+  - [MONAI](https://monai.io/): PyTorch-based framework for deep learning in healthcare imaging
+  - [3D Slicer](https://www.slicer.org/): Platform for medical image analysis and visualization
+  - [ITK-SNAP](http://www.itksnap.org/): Tool for segmentation of 3D medical images
+
+* **Surgical AI Systems**
+  - [SurgicalSAM](https://github.com/wenxi-yue/SurgicalSAM): Surgical instrument segmentation
+  - [EndoNeRF](https://github.com/med-air/EndoNeRF): Neural rendering for endoscopic procedures
+  - [Surgical Data Science](https://surgical-data-science.org/): Resources for computational surgery
 
 ## Academic Writing
 

@@ -41,6 +41,10 @@
   - [数据集下载](#数据集下载)
   - [特征工程](#特征工程)
   - [超参搜索](#超参搜索)
+- [AI 编码助手](#ai-编码助手)
+  - [自主编码代理](#自主编码代理)
+  - [AI 驱动开发工具](#ai-驱动开发工具)
+  - [医疗 AI 开发](#医疗-ai-开发)
 - [论文写作](#论文写作)
   - [LaTeX 模板](#latex-模板)
   - [LaTeX 编辑器](#latex-编辑器)
@@ -209,6 +213,62 @@
 <!-- ### Debug 工具
 
 * [PySnooper](https://github.com/cool-RR/pysnooper)：【待尝试】致力让用户抛弃`print`函数来 debug（然而，至少目前我还是习惯用 logging 模块，和`print`差不了多少）。[机器之心写的简介](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650760939&idx=1&sn=5b69c106549f329f83ca241e1bc71ff3&chksm=871aa295b06d2b83deade4fc16f99ed5354572c8838d202d0a229d804bb535815f2315d980d0&scene=0&xtrack=1&key=6854b25c2a023c1b259671991171b31fab8ca8f0b3be42cfe9746f0ac6a97af337c3f692988c69af5813e1658308b6087dc66c1d1f218619aab29c7d02dfc8b005eff42eea7fcb837022e321727f14b5&ascene=1&uin=MjA1ODkwNzIyNw%3D%3D&devicetype=Windows+10&version=62060739&lang=zh_CN&pass_ticket=5JdoVuTltfAvWg%2FaBYq40SvnVT0xZhhRK9fPaxA3iu2MgoceoLJpRqamQ9gnBuY2) -->
+
+## AI 编码助手
+
+### 自主编码代理
+
+* [Claude Code](https://claude.ai/code)：Anthropic 官方的 Claude 自主编码 CLI。最强大的 AI 编程伙伴，适用于复杂的软件工程任务。
+  
+  **专业技巧：**
+  - **规划模式**：按两次 `shift + tab` 进入规划模式处理复杂任务
+  - **项目指令**：使用 `/init` 创建 Claude.md 文件设置项目特定指南
+  - **全新开始**：使用 `/clear` 以干净的上下文开始新任务
+  - **记忆功能**：使用 `#` 将重要信息添加到记忆中供后续会话使用
+  - **自定义命令**：创建斜杠命令如 `/commit`、`/test`、`/deploy`
+  - **Git 工作流**：在功能分支上工作，经常提交并使用描述性消息
+  
+  **思考模式**（深度递增）：
+  - `think` - 基础推理
+  - `think hard` - 深度分析
+  - `think harder` - 复杂问题解决
+  - `ultrathink` - 最高推理深度，用于最难的问题
+  
+  **必备扩展：**
+  - [Peekaboo](https://peekaboo.dev/) - 分析截图和图表的视觉超能力
+  - [llm.codes](https://llm.codes/) - 从代码生成整洁、专业的文档
+  - [ccusage](https://github.com/claudeusercontent/ccusage) - 跟踪 Claude 使用情况（Max 订阅）
+
+* [Cursor](https://cursor.sh/)：基于 VSCode 的 AI 优先代码编辑器。功能包括多文件编辑、代码库理解和自然语言转代码。
+
+* [GitHub Copilot](https://github.com/features/copilot)：AI 编程伙伴，建议整行和函数。集成 VSCode、JetBrains IDE 和 Neovim。
+
+### AI 驱动开发工具
+
+* [Codeium](https://codeium.com/)：免费的 AI 代码补全和聊天。支持 70+ 种语言，集成所有主流 IDE。
+
+* [Tabnine](https://www.tabnine.com/)：用于更快编码的 AI 助手。为隐私敏感环境提供云端和本地模型。
+
+* [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/)：针对 AWS 服务优化的 AI 编码伴侣。个人开发者免费。
+
+* [Replit AI](https://replit.com/ai)：Replit 中的协作 AI 功能，包括代码生成、调试和解释。
+
+### 医疗 AI 开发
+
+* **临床决策支持工具**
+  - [MIMIC-IV](https://physionet.org/content/mimiciv/)：用于开发 AI 模型的重症监护数据库
+  - [ClinicalBERT](https://github.com/kexinhuang12345/clinicalBERT)：用于临床笔记的预训练 BERT
+  - [Med7](https://github.com/kormilitzin/med7)：用于信息提取的临床 NLP
+
+* **医学图像分析**
+  - [MONAI](https://monai.io/)：基于 PyTorch 的医疗保健成像深度学习框架
+  - [3D Slicer](https://www.slicer.org/)：医学图像分析和可视化平台
+  - [ITK-SNAP](http://www.itksnap.org/)：3D 医学图像分割工具
+
+* **手术 AI 系统**
+  - [SurgicalSAM](https://github.com/wenxi-yue/SurgicalSAM)：手术器械分割
+  - [EndoNeRF](https://github.com/med-air/EndoNeRF)：内窥镜手术的神经渲染
+  - [Surgical Data Science](https://surgical-data-science.org/)：计算外科资源
 
 ## 论文写作
 
