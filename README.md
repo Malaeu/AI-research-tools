@@ -44,6 +44,8 @@
 - [AI 编码助手](#ai-编码助手)
   - [自主编码代理](#自主编码代理)
   - [AI 驱动开发工具](#ai-驱动开发工具)
+  - [代理式 AI 框架](#代理式-ai-框架)
+  - [开发者生产力扩展](#开发者生产力扩展)
   - [医疗 AI 开发](#医疗-ai-开发)
 - [论文写作](#论文写作)
   - [LaTeX 模板](#latex-模板)
@@ -252,6 +254,18 @@
 * [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/)：针对 AWS 服务优化的 AI 编码伴侣。个人开发者免费。
 
 * [Replit AI](https://replit.com/ai)：Replit 中的协作 AI 功能，包括代码生成、调试和解释。
+
+### 代理式 AI 框架
+
+* [PocketFlow](https://github.com/The-Pocket/PocketFlow)：100 行代码的 LLM 框架，让 AI 代理构建 AI 代理。采用基于流的编程的极简主义方法。
+
+* [lemmy](https://github.com/badlogic/lemmy)：使用 LLM 进行代理工作流的 TypeScript 工具包装器。为自主任务执行提供简单集成。
+
+### 开发者生产力扩展
+
+* [Superpower ChatGPT](https://github.com/saeedezzati/superpower-chatgpt)：增强 ChatGPT 的浏览器扩展，具有搜索历史、文件夹、导出功能、固定消息和社区提示等功能。
+
+* [GitDiagram](https://github.com/ahmedkhaleel2004/gitdiagram)：为任何 GitHub 仓库创建交互式图表。自动可视化代码库结构和系统设计。访问 [gitdiagram.com](https://gitdiagram.com)。
 
 ### 医疗 AI 开发
 

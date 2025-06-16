@@ -44,6 +44,8 @@
 - [AI Coding Assistants](#ai-coding-assistants)
   - [Autonomous Coding Agents](#autonomous-coding-agents)
   - [AI-Powered Development Tools](#ai-powered-development-tools)
+  - [Agentic AI Frameworks](#agentic-ai-frameworks)
+  - [Developer Productivity Extensions](#developer-productivity-extensions)
   - [Medical AI Development](#medical-ai-development)
 - [Academic Writing](#academic-writing)
   - [LaTeX Templates](#latex-templates)
@@ -246,6 +248,18 @@ I previously used [Evernote](https://www.yinxiang.com/) but have stopped and am 
 * [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/): AI coding companion optimized for AWS services. Free for individual developers.
 
 * [Replit AI](https://replit.com/ai): Collaborative AI features in Replit including code generation, debugging, and explanation.
+
+### Agentic AI Frameworks
+
+* [PocketFlow](https://github.com/The-Pocket/PocketFlow): 100-line LLM framework where agents build agents. Minimalist approach to agentic workflows with flow-based programming.
+
+* [lemmy](https://github.com/badlogic/lemmy): TypeScript wrapper around tools using LLMs for agentic workflows. Simple integration for autonomous task execution.
+
+### Developer Productivity Extensions
+
+* [Superpower ChatGPT](https://github.com/saeedezzati/superpower-chatgpt): Browser extension that enhances ChatGPT with search history, folders, export functionality, pin messages, and community prompts.
+
+* [GitDiagram](https://github.com/ahmedkhaleel2004/gitdiagram): Create interactive diagrams for any GitHub repository. Visualize codebase structure and system design automatically. Available at [gitdiagram.com](https://gitdiagram.com).
 
 ### Medical AI Development
 
