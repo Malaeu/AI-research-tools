@@ -1,6 +1,10 @@
 <h1 align="center">AI Research Tools</h1>
 
 <p align="center">
+  <strong><a href="README.md">中文</a> | <a href="README_EN.md">English</a></strong>
+</p>
+
+<p align="center">
   <a href="http://kyonhuang.top" target="_blank"><img src="https://img.shields.io/badge/%E4%BD%9C%E8%80%85-KyonHuang-7AD6FD.svg" alt="Author"></a>
   <a href="https://github.com/bighuang624/AI-research-tools/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
 </p>
